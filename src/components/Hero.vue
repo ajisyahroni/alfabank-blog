@@ -50,7 +50,7 @@ export default {
 .bg-color-hero {
   position: relative;
   height: 100vh;
-  background-image: linear-gradient(#294053, #334c61);
+  background-image: linear-gradient(#21303d, #334c61);
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
 }

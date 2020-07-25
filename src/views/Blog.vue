@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar color="#294053" class="white--text" dark>
+    <v-toolbar color="#21303d" class="white--text" dark>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
       <v-toolbar-title>
         <h2 class="font-weight-light">Alfablog</h2>

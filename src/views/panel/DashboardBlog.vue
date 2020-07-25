@@ -16,20 +16,19 @@
                 <!-- read more button -->
                 <v-btn
                   class="text-uppercase"
-                  rounded
                   color="whitefy"
                   small
                   outlined
                   @click="detailBlog(i)"
                 >Read More</v-btn>
                 <!-- delete button -->
-                <v-btn
+                <!-- <v-btn
                   class="text-uppercase"
                   rounded
                   color="error"
                   small
                   @click="destroyBlog(i)"
-                >delete</v-btn>
+                >delete</v-btn> -->
               </v-card-actions>
             </v-img>
           </v-card>
@@ -48,7 +47,7 @@ export default {
         params: { id: idBlog },
       });
     },
-    destroyBlog(idBlog) {},
+    
   },
 };
 </script>

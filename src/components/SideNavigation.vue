@@ -41,7 +41,7 @@ export default {
       items: [
         { title: "Blog", icon: "mdi-home-city", route: "DashboardBlog" },
         { title: "Write blog", icon: "mdi-account", route: "DashboardWriteBlog" },
-        { title: "Logout", icon: "mdi-account-group-outline", route: "/" }
+        { title: "Logout", icon: "mdi-account-group-outline", route: "LandingPage" }
       ],
       mini: true
     };

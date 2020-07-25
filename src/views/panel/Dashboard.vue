@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import SideNavigation from "../components/SideNavigation";
+import SideNavigation from "../../components/SideNavigation";
 export default {
   components: {
     SideNavigation

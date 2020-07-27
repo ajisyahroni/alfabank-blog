@@ -6,9 +6,18 @@ Vue.config.productionTip = false
 
 import Vue2Editor from "vue2-editor";
 import vuetify from './plugins/vuetify';
-new Vue({
+
+// logger 
+import Logger from './helpers/loger';
+Vue.use(Logger, {
+  setGlobal: true
+})
+
+
+let vm = new Vue({
   router,
   vuetify,
   Vue2Editor,
-  render: h => h(App)
+  render: h => h(App),
+
 }).$mount('#app')

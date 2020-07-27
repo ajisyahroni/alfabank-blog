@@ -45,8 +45,6 @@ export default {
 </script>
 
 <style scoped>
-.bg-color-helper {
-}
 .bg-color-hero {
   position: relative;
   height: 100vh;

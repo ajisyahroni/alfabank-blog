@@ -9,9 +9,13 @@ import vuetify from './plugins/vuetify';
 
 // logger 
 import Logger from './helpers/loger';
+// res formatter
+import Res from './helpers/api.response';
 Vue.use(Logger, {
   setGlobal: true
 })
+
+Vue.use(Res)
 
 
 let vm = new Vue({
